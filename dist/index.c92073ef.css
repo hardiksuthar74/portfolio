@@ -1,0 +1,33 @@
+.skills {
+  grid-template-columns: repeat(9, 1fr);
+  gap: 20px 10px;
+  display: grid;
+}
+
+.skills img {
+  width: 100px;
+  height: auto;
+  background-color: #faebd741;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */

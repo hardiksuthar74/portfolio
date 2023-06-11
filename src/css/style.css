@@ -1,0 +1,35 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.skills img {
+  background-color: rgba(250, 235, 215, 0.253);
+  border-radius: 6px;
+  padding: 10px;
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  /* CSS rules for screens with a maximum width of 768px */
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* CSS rules for screens with a minimum width of 769px and a maximum width of 1024px */
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+  /* CSS rules for screens with a minimum width of 769px and a maximum width of 1024px */
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
